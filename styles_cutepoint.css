@@ -1,0 +1,166 @@
+/* ここからヘッダー */
+body{
+  margin:0;
+  padding:0;
+  font-family: "Hiragino Kaku Gothic ProN";
+}
+
+header{
+  text-align:center;
+}
+
+
+.header{
+  background-color: rgba(255,255,255,0.5);
+  height: 65px;
+  position: fixed;
+  top:0px;
+  width:100%;
+  z-index: 10;
+
+}
+
+.header-wrapper{
+  width:1000px;
+  margin:auto;
+}
+
+.logo{
+float:left;
+margin:10px 0 0 10px;
+}
+
+.navigation-h{
+  float:right;
+
+  height:65px;
+  font-size: 0px;
+}
+
+
+.navigation-h li{
+  font-size:20px;
+  display: inline-block;
+  padding:0 20px;
+  background-color: rgba(83, 82, 126, 0.5);
+}
+
+.navigation-h li:hover{
+ background-color: rgba(83, 82, 126, 0.8);
+ transition: all 0.5s;
+}
+
+.navigation-h a {
+  color:white;
+  text-decoration: none;
+  line-height: 65px;
+  display: block;
+}
+
+/* ここまでヘッダー */
+
+
+
+
+/* ここからメインコンテンツ */
+.cutepoint_wrapper{
+  background-color: #111129;
+}
+
+.cutepoint_logo{
+  padding-top:150px;
+  text-align: center;
+  background-color: #111129;
+  height:100px;
+}
+
+.cutepoint_list{
+  margin:auto;
+  background-color: #111129;
+  padding-bottom: 100px;
+  position: relative;
+}
+
+.cutepoint_list img{
+  display: block;
+  margin:auto;
+  text-align: center;
+  z-index: 1;
+}
+
+.box{
+  color:white;
+  width:350px;
+  height:140px;
+  background-color: rgba(255,255,255,0.5);
+  border-radius: 15px;
+}
+
+.box h1{
+  padding:5px;
+  font-size: 24px;
+  margin-bottom: 0;
+}
+
+.box p{
+  margin-top:0;
+  padding:0 20px;
+}
+
+.ear{
+  position: absolute;
+  top:110px;
+  left:610px;
+}
+
+.whiskerpad{
+  position: absolute;
+  top:480px;
+  left:220px;
+}
+
+.paws{
+  position: absolute;
+  top:850px;
+  left:650px;
+}
+
+/* ここまでメインコンテンツ */
+
+
+
+/* ここからフッター */
+footer{
+  background-color: #53527e;
+  height:120px;
+}
+
+.footer-wrapper{
+  padding:15px;
+  width:1000px;
+  margin:auto;
+}
+
+.logo-f{
+float:left;
+margin:20px 0 0 10px;
+}
+
+.navigation-f a {
+  color:white;
+  text-decoration: none;
+}
+
+.navigation-f ul{
+  margin-right:20px;
+  float:right;
+}
+
+.navigation-f li{
+  list-style: none;
+  font-size:20px;
+  line-height: 35px;
+}
+
+
+/* ここまでフッター */
