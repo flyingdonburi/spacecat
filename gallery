@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="ja" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>SPACE CAT</title>
+    <link rel="stylesheet" href="styles_gallery.css">
+  </head>
+
+  <body>
+  <!-- ここからヘッダー -->
+    <header>
+      <div class="header">
+        <div class="header-wrapper">
+        <div class="logo">
+          <a href="index.html"><img src="logob.png" alt="ロゴ"></a>
+        </div>
+        <div class="navigation-h">
+          <ul>
+            <li><a href="cutepoint.html">Cute Point</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+          </ul>
+        </div>
+        </div>
+      </div>
+    </header>
+<!-- ここまでヘッダー -->
+
+
+<!-- ここからメインコンテンツ -->
+  <div class="gallery_warrap">
+  <div class="image_f">
+    <img src="gallerylogo.png" alt="logo" class="gallerylogo">
+    <img src="gallery1.jpg" alt="SPACE CAT-1">
+    <img src="gallery2.jpg" alt="SPACE CAT-2">
+  </div>
+  <div class="image_s">
+    <img src="gallery4.jpg" alt="SPACE CAT-4">
+    <img src="gallery3.jpg" alt="SPACE CAT-3">
+  </div>
+  </div>
+<!-- ここまでメインコンテンツ -->
+
+
+<!-- ここからフッター -->
+    <footer>
+        <div class="footer-wrapper">
+        <div class="logo-f">
+          <a href="index.html"><img src="logob.png" alt="ロゴ"></a>
+        </div>
+        <div class="navigation-f">
+          <ul>
+            <li><a href="cutepoint.html">Cute Point</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+          </ul>
+        </div>
+        </div>
+    </footer>
+<!-- ここまでフッター -->
+  </body>
+</html>
